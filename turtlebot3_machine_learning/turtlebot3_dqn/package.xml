@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>turtlebot3_machine_learning</name>
+  <name>turtlebot3_dqn</name>
   <version>1.0.0</version>
   <description>
-    This metapackage includes various ROS packages using TurtleBot3 and machine learning.
+    The turtlebot3_dqn package includes applications using reinforcement learning with DQN (Deep Q-Learning).
   </description>
   <license>Apache 2.0</license>
   <author email="kkjong@robotis.com">Gilbert</author>
@@ -13,6 +13,5 @@
   <url type="repository">https://github.com/ROBOTIS-GIT/turtlebot3_machine_learning</url>
   <url type="bugtracker">https://github.com/ROBOTIS-GIT/turtlebot3_machine_learning/issues</url>
   <buildtool_depend>catkin</buildtool_depend>
-  <exec_depend>turtlebot3_dqn</exec_depend>
-  <export><metapackage/></export>
+  <depend>rospy</depend>
 </package>
